@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spam Mail Predictor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+  .jumbotron{
+    background-color:black;
+    color:white;
+  }
+</style>
+
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="text-center"></h1>
+
+    {% if output==1 %}
+      <h1 class="text-center">This is NOT a spam Email</h1>
+    {% else %}
+      <h1 class="text-center">This is a spam Email</h1>
+    {% endif %}
+</div>
+
+  <h3 class="text-center"><a href="/" class="btn btn-lg btn-primary" title="">Try new Email</a></h3>
+
+</body>
+</html>
