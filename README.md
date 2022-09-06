@@ -4,7 +4,7 @@
 ### Spam Mail Detector using Machine Learning Model and deployed by using Flask framework ###
 
 
-### Required versions to run app.py ###
+### Recommended versions to run app.py ###
 * Python 3.9.12
 * Flask 1.1.2
 * Werkzeug 2.0.3
