@@ -1,4 +1,4 @@
-# ML-Spam-Mail-Detector-Using-Flask #
+# ML Spam Mail Detector Using Flask #
 
 
 ### Spam Mail Detector using Machine Learning Model and deployed by using Flask framework ###
